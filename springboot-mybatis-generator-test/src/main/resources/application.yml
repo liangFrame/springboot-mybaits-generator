@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/newtest
+    username: root
+    password: admin
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.springbootmybatisgeneratortest.pojo
+server:
+  port: 8081
